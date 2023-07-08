@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.body{
+    background-image: url(../Multimedia/Img/Fondo\ de\ pagina\ oscuro.jpg);
+    background-size: cover;
+}
+
 header {
     background-color: rgb(177, 255, 184);
     width: 100%;
@@ -98,13 +103,19 @@ header {
 
 .titulo-paginas{
     font-size: 50px;
+    color: white;
+}
+
+.h2nosotros{
+    color: whitesmoke;
 }
 
 .logoYT{
-    width: 75px;
+    width: 80px;
     border-radius: 50%;
     margin-left: 80px;
     margin-top: 25px;
+    border: solid 5px #fff;
 }
 
 .subtitulo-inicio{
@@ -115,16 +126,19 @@ header {
 }
 
 .presentacion{
-    color: black;
-    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
     margin: 30px;
     text-align: center;
+    font-weight: bold;
 }
 
 .MarcasInicio{
-    border: solid;
-    width: 180px;
-    margin: 10px 0px; 
+    width: 200px;
+    border: solid 1px white;
+    margin: 30px auto;
+    color: rgb(197, 223, 224);
+    font-size: 20px;
 }
 
 .MarcasInicio ul{
@@ -142,25 +156,24 @@ header {
 }
 
 .referencia{
-    color: #090342;
-    font-size: x-large;
+    color: #b4d5db;
+    font-weight: bolder;
+    font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
-    margin: 10px;
+    margin: 20px 10px;
 }
 
 .tarjetaInicio{
-    border: solid;
     width: 275px;
     height: 350px;
-    padding: 2px;
-    margin: 2px 15px 2px 2px;
-    border-radius: 5px;
+    margin: 2px 15px 2px 5px;
 }
 
 .tarjetaInicio img{
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 .conjunto-trabajos{
@@ -262,9 +275,9 @@ button{
 .Bloque{
     margin: 10px;
     /*padding: 20px;*/
-    width: 350px;
+    width: 500px;
     height: 150px;
-    background-color: rgb(51, 72, 192);
+    background-color: rgb(150, 160, 212);
     border: solid 3px #124e41;
     border-radius: 5px;
     overflow-y: scroll;
