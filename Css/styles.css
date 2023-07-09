@@ -288,7 +288,7 @@ button{
     /*display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;*/
+    align-items: end;*/
     width: 140px;
     height: 40px;
     background-color: rgba(23, 24, 23, 0.89);
