@@ -206,6 +206,7 @@ header {
     border: solid 2px;
     width: 175px;
     padding: 5px;
+    color: white;
 }
 
 .equipo{
@@ -235,16 +236,48 @@ header {
 }
 
 .team{
-    background-color: rgb(241, 248, 248);
+    background-color: #d5e1e423;
     width: 300px
 }
 
+.team p{
+    color: white;
+    margin-left: 15px;
+}
+
+.team li{
+    color: white;
+    margin-left: 15px;
+}
+
+.selectorProductos{
+    width: 150px;
+    height: 22px;
+    margin: 30px;
+}
+
+.cuerpoProductos{
+    display: flex;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+}
 .tarjetaProductos{
-    border: solid 2px;
+    border: solid 3px #150d52;
     width: 300px;
     border-radius: 15px;
     padding: 10px;
     margin: 10px;
+    background-color: white;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+
+}
+
+.subtituloProductos{
+    color: white;
 }
 
 button{
@@ -252,14 +285,18 @@ button{
 }
 
 .productos__comprar{
-    width: 176px;
-    height: 35px;
-    margin: 15px 0px;
+    /*display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;*/
+    width: 140px;
+    height: 40px;
     background-color: rgba(23, 24, 23, 0.89);
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
     transition: 0.7s;
+    
 }
 
 .productos__comprar:hover{
@@ -290,6 +327,7 @@ button{
 }
 
 .H1contacto{
+    color: white;
     margin-top: 155px;
     font-size: 50px;
     text-align: center;
@@ -297,7 +335,9 @@ button{
 }
 
 .datos{
-    border: solid 5px #1b045a;
+    color: white;
+    font-weight: bolder;
+    border: solid 5px rgb(37, 37, 78);
     border-radius: 6px;
     width: 400px;
     padding: 10px;
