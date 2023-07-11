@@ -403,8 +403,8 @@ button{
 
 .PieDePagina{
     margin: 15px 0px 0px 0px;
-    border: solid 2px #050225;
-    background-color: #3c5a8586;
+    border: solid 2px #000000;
+    background-color: #35537c6e;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     column-gap: 20px;
